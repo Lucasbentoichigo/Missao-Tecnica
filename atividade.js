@@ -119,6 +119,8 @@ let invertido = inventarioAlpha.reverse()
 let estudoTemporal = invertido.slice(0,10);
 console.log("Lista de estudo temporal:", estudoTemporal);
 
+//15.O quinto item da Alpha foi substituído por uma versão mais moderna. Atualize
+inventarioAlpha[4] = [""]
 
 
 
