@@ -163,7 +163,19 @@ console.log("Lista de destaques:" , listaUnificada2);
 //25.Inverta a ordem de todos os itens da Beta para visualização reversa.
 
 //26.Inverta a ordem dos 15 primeiros itens da Alpha como simulação de viagem no tempo.
+let quinzePrimeiros = inventarioAlpha.slice(0,15);
+let viagemTemporal = quinzePrimeiros.reverse();
+let temporalViagem = inventarioAlpha.splice(16, inventarioAlpha.length);
+let viagemTemporalVerdadeira = quinzePrimeiros.concat(temporalViagem)
+console.log(viagemTemporalVerdadeira);
 
+//27.Crie uma prévia com os nomes e planetas dos 10 itens mais valiosos da Alpha.
+
+//28.Extraia os itens da Beta que foram coletados em luas (ex: Lua, Europa, Titã…).
+
+//29.dentifique e mova para o final da Alpha todos os itens com valor abaixo de 4000.
+
+//30.Conte quantos itens do inventário Beta vieram de planetas do sistema solar interno.
 
 
 
