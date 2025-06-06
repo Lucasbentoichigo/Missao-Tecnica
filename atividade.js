@@ -103,7 +103,8 @@ let itemRemoved2 = inventarioBeta.shift();
 console.log(`Item removido: ${itemRemoved2}`);
 console.log("Lista atualizada:", inventarioBeta);
 
-
+//11.Gere uma string com todos os planetas do inventário Alpha, separados por um delimitador.
+console.log(inventarioAlpha.join(';  '));
 
 
 
