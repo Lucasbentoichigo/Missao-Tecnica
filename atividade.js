@@ -98,6 +98,8 @@ let itemRemoved = inventarioAlpha.shift();
 console.log(`Item removido: ${itemRemoved}`);
 console.log("Lista atualizada:", inventarioAlpha);
 
+//8.Um artefato incorreto foi inserido no topo da Alpha por engano. Ele deve ser excluído.
+
 
 
 
