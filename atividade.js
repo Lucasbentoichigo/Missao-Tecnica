@@ -82,6 +82,12 @@ inventarioBeta.push(itemNovo2);
 console.log("Lista atualizada:", inventarioBeta);
 
 //5. Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine.
+let itemMaisTop = inventarioAlpha.splice(7,1);
+console.log("Item destacado:", itemMaisTop);
+inventarioAlpha.unshift(itemMaisTop);
+console.log("Lista atualizada:", inventarioAlpha);
+
+
 
 
 
