@@ -69,6 +69,12 @@ console.log(`Lista após a missão: ${inventarioBeta}`);
 let novoItem1 = ["Camisa do Zé Felipe", "Terra", "3300"];
 let novoItem2 =  ["Chuteira do Neymar", "Terra", "8729"];
 let novoItem3 = ["Xbox 720", "Terra", "9322"];
+inventarioAlpha.push(novoItem1);
+inventarioAlpha.push(novoItem2);
+inventarioAlpha.push(novoItem3);
+console.log("Lista atualizada:", inventarioAlpha);
+
+//4.Dois artefatos especiais de Kepler foram coletados e adicionados à nave Beta.
 
 
 
