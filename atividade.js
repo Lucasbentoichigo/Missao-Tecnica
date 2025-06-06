@@ -142,7 +142,7 @@ let destaque2 = inventarioBeta.slice(0,5);
 listaUnificada2 = destaque1.concat(destaque2);
 console.log("Lista de destaques:" , listaUnificada2);
 
-//19.Crie uma versão com os nomes de todos os itens da Beta em letras maiúsculas.
+
 
 
 
