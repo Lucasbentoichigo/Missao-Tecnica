@@ -131,6 +131,8 @@ console.log(`Os itens que do inventário beta que foram contaminados serão remo
 inventarioBeta.splice(13,2)
 console.log("Lista atualizada:", inventarioBeta);
 
+//17.Unifique os inventários Alpha e Beta em uma única estrutura.
+
 
 
 
