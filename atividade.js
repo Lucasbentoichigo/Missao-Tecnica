@@ -133,7 +133,8 @@ inventarioBeta.splice(13,2)
 console.log("Lista atualizada:", inventarioBeta);
 
 //17.Unifique os inventários Alpha e Beta em uma única estrutura.
-let listaUnificada = 
+let listaUnificada = inventarioAlpha.concat(inventarioBeta)
+console.log("Lista Unificada:", listaUnificada);
 
 
 
