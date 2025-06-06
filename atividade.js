@@ -104,6 +104,9 @@ console.log(`Item removido: ${itemRemoved2}`);
 console.log("Lista atualizada:", inventarioBeta);
 
 //13.Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
+let novaArray = [];
+novaArray = inventarioBeta.slice(0,5)
+console.log("Nova lista:", novaArray);
 
 
 
