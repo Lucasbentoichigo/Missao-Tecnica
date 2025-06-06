@@ -115,12 +115,20 @@ novaArray = inventarioBeta.slice(0,5)
 console.log("Nova lista:", novaArray);
 
 //14.Separe os 10 últimos itens do inventário Alpha para estudo temporal.
-let invertido = inventarioAlpha.reverse()
+let clone = inventarioAlpha.map(item => item);
+let invertido = clone.reverse()
 let estudoTemporal = invertido.slice(0,10);
 console.log("Lista de estudo temporal:", estudoTemporal);
 
 //15.O quinto item da Alpha foi substituído por uma versão mais moderna. Atualize
-inventarioAlpha[4] = [""]
+console.log(`Item substituido:${inventarioAlpha[4]}`);
+inventarioAlpha[4] = ["Hogyoku", "Hueco Mundo", "9999"]
+console.log(`Item atualizado: ${inventarioAlpha[4]}`);
+console.log("Lista atualizada:", inventarioAlpha);
+
+//16. 
+
+
 
 
 
