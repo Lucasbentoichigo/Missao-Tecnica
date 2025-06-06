@@ -104,6 +104,12 @@ let itemRemoved2 = inventarioBeta.shift();
 console.log(`Item removido: ${itemRemoved2}`);
 console.log("Lista atualizada:", inventarioBeta);
 
+//9.Verifique se a “Relíquia de Zordon” está presente no inventário Beta.
+
+//10.Verifique se o item “Nanofibra Luminosa” ainda está disponível na Alpha.
+
+//11.Gere uma string com todos os planetas do inventário Alpha, separados por um delimitador.
+
 //12.Crie um texto com os nomes dos 10 primeiros itens da Beta, separados por vírgulas.
 let novaArray2 = [];
 novaArray2 = inventarioBeta.slice(0,10);
@@ -141,6 +147,23 @@ let destaque1 = inventarioAlpha.slice(0,5);
 let destaque2 = inventarioBeta.slice(0,5);
 listaUnificada2 = destaque1.concat(destaque2);
 console.log("Lista de destaques:" , listaUnificada2);
+
+//19.Crie uma versão com os nomes de todos os itens da Beta em letras maiúsculas.
+
+//20.Converta os valores de todos os itens da Alpha para uma moeda interestelar (multiplicação).
+
+//21.Filtre da Beta apenas os itens que custam mais de 7000 créditos.
+
+//22.Filtre da Alpha todos os itens originários da Terra para despacho diplomático.
+
+//23.Reorganize os itens da Beta do menor para o maior valor.
+
+//24.Reorganize a lista da Alpha em ordem alfabética dos nomes dos artefatos.
+
+//25.Inverta a ordem de todos os itens da Beta para visualização reversa.
+
+//26.Inverta a ordem dos 15 primeiros itens da Alpha como simulação de viagem no tempo.
+
 
 
 
