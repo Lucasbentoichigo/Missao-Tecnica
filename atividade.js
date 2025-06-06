@@ -104,12 +104,17 @@ console.log(`Item removido: ${itemRemoved2}`);
 console.log("Lista atualizada:", inventarioBeta);
 
 //12.Crie um texto com os nomes dos 10 primeiros itens da Beta, separados por vírgulas.
+let novaArray2 = [];
+novaArray2 = inventarioBeta.slice(0,10);
+console.log(`Nova lista: ${novaArray2.join(';  ')}`);
 
 
 //13.Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
 let novaArray = [];
 novaArray = inventarioBeta.slice(0,5)
 console.log("Nova lista:", novaArray);
+
+
 
 
 
