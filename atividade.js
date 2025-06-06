@@ -81,6 +81,9 @@ inventarioBeta.push(itemNovo1);
 inventarioBeta.push(itemNovo2);
 console.log("Lista atualizada:", inventarioBeta);
 
+//5. Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine.
+
+
 
 
 
