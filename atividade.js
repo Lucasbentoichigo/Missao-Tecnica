@@ -103,8 +103,8 @@ let itemRemoved2 = inventarioBeta.shift();
 console.log(`Item removido: ${itemRemoved2}`);
 console.log("Lista atualizada:", inventarioBeta);
 
-//11.Gere uma string com todos os planetas do inventário Alpha, separados por um delimitador.
-console.log(inventarioAlpha.join(';  '));
+//13.Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
+
 
 
 
