@@ -126,8 +126,10 @@ inventarioAlpha[4] = ["Hogyoku", "Hueco Mundo", "9999"]
 console.log(`Item atualizado: ${inventarioAlpha[4]}`);
 console.log("Lista atualizada:", inventarioAlpha);
 
-//16. 
-
+//16. Dois itens no meio do inventário Beta foram contaminados e precisam ser removidos.
+console.log(`Os itens que do inventário beta que foram contaminados serão removidos foram ${inventarioBeta[13]} e ${inventarioBeta[14]}`);
+inventarioBeta.splice(13,2)
+console.log("Lista atualizada:", inventarioBeta);
 
 
 
