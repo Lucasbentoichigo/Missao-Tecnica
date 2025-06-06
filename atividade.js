@@ -60,6 +60,15 @@ let itemRemovidoAlpha = inventarioAlpha.pop();
 console.log(`Item duplicado removido: ${itemRemovidoAlpha}`);
 console.log(`Lista após a remoção: ${inventarioAlpha}`);
 
+//2.Um artefato obsoleto foi removido do final da lista Beta após avaliação técnica.
+let itemRemovidoBeta = inventarioBeta.pop();
+console.log(`Item removido no final da lista Beta: ${itemRemovidoBeta}`);
+console.log(`Lista após a missão: ${inventarioBeta}`);
+
+
+
+
+
 
   
  
