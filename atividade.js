@@ -75,8 +75,11 @@ inventarioAlpha.push(novoItem3);
 console.log("Lista atualizada:", inventarioAlpha);
 
 //4.Dois artefatos especiais de Kepler foram coletados e adicionados à nave Beta.
-
-
+let itemNovo1 = ["Zampakutou", "Kepler", "1200"];
+let itemNovo2 = ["Cuphead 2", "Kepler", "2500"];
+inventarioBeta.push(itemNovo1);
+inventarioBeta.push(itemNovo2);
+console.log("Lista atualizada:", inventarioBeta);
 
 
 
