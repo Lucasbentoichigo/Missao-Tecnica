@@ -87,6 +87,14 @@ console.log("Item destacado:", itemMaisTop);
 inventarioAlpha.unshift(itemMaisTop);
 console.log("Lista atualizada:", inventarioAlpha);
 
+//6.Um item da Beta deve ser promovido para o início da lista para estudo prioritário.
+let itemBizarro = inventarioBeta.splice(16,1);
+console.log(`Item de estudo prioritário: ${itemBizarro}`);
+inventarioBeta.unshift(itemBizarro);
+console.log("Lista atualizada:", inventarioBeta);
+
+
+
 
 
 
