@@ -137,7 +137,10 @@ let listaUnificada = inventarioAlpha.concat(inventarioBeta)
 console.log("Lista Unificada:", listaUnificada);
 
 //18.Junte os cinco primeiros itens de cada nave em uma nova vitrine de destaques.
-
+let destaque1 = inventarioAlpha.slice(0,5);
+let destaque2 = inventarioBeta.slice(0,5);
+listaUnificada2 = destaque1.concat(destaque2);
+console.log("Lista de destaques:" , listaUnificada2);
 
 
 
