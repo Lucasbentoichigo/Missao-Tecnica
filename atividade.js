@@ -103,6 +103,9 @@ let itemRemoved2 = inventarioBeta.shift();
 console.log(`Item removido: ${itemRemoved2}`);
 console.log("Lista atualizada:", inventarioBeta);
 
+//12.Crie um texto com os nomes dos 10 primeiros itens da Beta, separados por vírgulas.
+
+
 //13.Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
 let novaArray = [];
 novaArray = inventarioBeta.slice(0,5)
