@@ -115,6 +115,9 @@ novaArray = inventarioBeta.slice(0,5)
 console.log("Nova lista:", novaArray);
 
 //14.Separe os 10 últimos itens do inventário Alpha para estudo temporal.
+let invertido = inventarioAlpha.reverse()
+let estudoTemporal = invertido.slice(0,10);
+console.log("Lista de estudo temporal:", estudoTemporal);
 
 
 
