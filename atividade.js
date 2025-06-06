@@ -136,6 +136,9 @@ console.log("Lista atualizada:", inventarioBeta);
 let listaUnificada = inventarioAlpha.concat(inventarioBeta)
 console.log("Lista Unificada:", listaUnificada);
 
+//18.Junte os cinco primeiros itens de cada nave em uma nova vitrine de destaques.
+
+
 
 
 
