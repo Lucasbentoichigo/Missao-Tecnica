@@ -66,6 +66,10 @@ console.log(`Item removido no final da lista Beta: ${itemRemovidoBeta}`);
 console.log(`Lista após a missão: ${inventarioBeta}`);
 
 //3.Três novos artefatos da Terra foram entregues à nave Alpha. Adicione-os ao final.
+let novoItem1 = ["Camisa do Zé Felipe", "Terra", "3300"];
+let novoItem2 =  ["Chuteira do Neymar", "Terra", "8729"];
+let novoItem3 = ["Xbox 720", "Terra", "9322"];
+
 
 
 
